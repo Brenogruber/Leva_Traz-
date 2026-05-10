@@ -64,7 +64,7 @@ O **Leva e Traz** é uma plataforma web de caronas inteligentes e acessíveis qu
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://figma.com). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK]([https://figma.com](https://www.figma.com/design/VTpW2KUZvbd3ObRSG2Krvy/LevaeeTraz-%E2%80%A2-Projeto-UI-Design?node-id=0-1&p=f&t=bkq5qPfjbvkEcb71-0)). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ---
 
