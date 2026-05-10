@@ -101,9 +101,9 @@ Feito com ♥ por:
     <td align="center"><b>Julia Wassão</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/thiagodutra">@thiagodutra</a></td>
+    <td align="center"><a href="https://github.com/dutrathiago">@thiagodutra</a></td>
     <td align="center"><a href="https://github.com/brenogruber">@brenogruber</a></td>
-    <td align="center"><a href="https://github.com/igorsantana">@igorsantana</a></td>
+    <td align="center"><a href="https://github.com/igaummmm">@igorsantana</a></td>
     <td align="center"><a href="https://github.com/francieliosousa">@francieliosousa</a></td>
     <td align="center"><a href="https://github.com/juliawassao">@juliawassao</a></td>
   </tr>
