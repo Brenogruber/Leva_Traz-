@@ -10,12 +10,12 @@ body {
 /* Caixa do login */
 .login {
   background-color: #242424;
-  padding: 30px;
-  border-radius: 40px;
+  padding: 25px;
+  border-radius: 22px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent), rgba(28, 34, 43, 0.94);
   backdrop-filter: blur(18px);
-  width: 450px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,38 +96,41 @@ form a {
 
 /* Link recuperar senha */
 .link-recuperar {
-  color: #ff7b00;
+  color: #ffffff;
   font-size: 13px;
   transition: 0.3s;
-  margin-top: 5px;
+  margin-top: 10px;
+  justify-content: right;
+  display: flex;
 }
 
-.link-recuperar:hover {
-  color: #ff9500;
-  text-decoration: underline;
-}
+
+
+
 
 /* Botão */
 #botao-login {
   padding: 12px;
   border: none;
   border-radius: 8px;
-  background: #ff7b00;
+  background: #fd7a00;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   cursor: pointer;
   width: 100%;
-
-  /* efeito neon */
-  box-shadow:
-    0 0 5px #ff7b00,
-    0 0 10px #ff7b00,
-    0 0 20px #ff7b00,
-    0 0 40px #ff9500;
-
-  transition: 0.3s;
+  transform: translateY(-1px);
+  
 }
+
+#botao-login:hover {
+  background: #d36600;
+  box-shadow: 0 0 12px rgba(255, 123, 0, 0.5);
+  transform: translateY(-1px);
+  scale: 1.02;
+}
+
+
 button {
  padding: 12px;
   border: 1px solid #464646;
@@ -156,7 +159,7 @@ button:hover {
 }
 
 .divisor span {
-  background: white;
+  color: white;
   padding: 0 10px;
   position: relative;
   z-index: 1;
@@ -167,8 +170,17 @@ button:hover {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 100%;
-  border-top: 1px solid #ccc;
+  width: 45%;
+  border-top: 0.5px solid #ccc;
+}
+
+.divisor::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 45%;
+  border-top: 0.5px solid #ccc;
 }
 
 /* botão google */
