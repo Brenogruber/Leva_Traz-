@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Dashboard.css" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Leva e Traz - Dashboard</title>
+  </head>
+  <body>
+    <div class="dashboard-page">
+      <header class="topo-dashboard">
+        <img src="img/logo.png" alt="Logo Leva e Traz" />
+        <nav>
+          <a href="Index.html">Início</a>
+          <a href="Dashboard.html">Dashboard</a>
+          <a href="Login.html">Sair</a>
+        </nav>
+      </header>
+
+      <main class="dashboard-container">
+        <section class="painel">
+          <h1>Olá, Jose Viana</h1>
+          <p>Veja suas informações principais de forma simples e rápida.</p>
+        </section>
+
+        <section class="grid-info">
+          <div class="card-info">
+            <h2>Próxima viagem:</h2>
+            <p>Refúgio para Maringá</p>
+            <span>Hoje às 08:00</span>
+          </div>
+
+          <div class="card-info">
+            <h2>Saldo da conta:</h2>
+            <p>R$ 20,00</p>
+            <span>Disponível para usar</span>
+          </div>
+
+          <div class="card-info">
+            <h2>Status da conta:</h2>
+            <p>Verificada</p>
+            <span>Perfil completo</span>
+          </div>
+        </section>
+
+        <section class="bloco">
+          <h2>Buscar nova carona</h2>
+          <form action="Dashboard.html" class="formulario">
+            <label for="origem-dashboard">Origem</label>
+            <input
+              type="text"
+              id="origem-dashboard"
+              placeholder="Digite a origem"
+            />
+
+            <label for="destino-dashboard">Destino</label>
+            <input
+              type="text"
+              id="destino-dashboard"
+              placeholder="Digite o destino"
+            />
+
+            <label for="data-dashboard">Data</label>
+            <input type="date" id="data-dashboard" />
+
+            <button type="submit">Buscar carona</button>
+          </form>
+        </section>
+
+        <section class="bloco">
+          <h2>Viagens Disponíveis</h2>
+          <div class="lista-viagens">
+            <div class="viagem">
+              <h3>Refúgio para Maringá</h3>
+              <p>Motorista: Carlos Souza</p>
+              <span>Valor: R$ 15,00</span>
+            </div>
+
+            <div class="viagem">
+              <h3>FAP para Maringá</h3>
+              <p>Motorista: Roberta Alves</p>
+              <span>Valor: R$ 12,00</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="bloco">
+          <h2>Meu perfil</h2>
+          <form action="Dashboard.html" class="formulario">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" value="Jose Viana" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" value="jose@email.com" />
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" value="(44) 99999-0000" />
+
+            <button type="submit">Salvar alterações</button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

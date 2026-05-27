@@ -1,12 +1,83 @@
 <!doctype html>
 <html lang="pt-BR">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LevaeTraz</title>
-    <meta http-equiv="refresh" content="0; url=landing/index.html" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Leva e Traz - Início</title>
   </head>
   <body>
-    <p>Abrindo <a href="landing/index.html">landing/index.html</a>...</p>
+    <div class="page">
+      <header class="topo">
+        <img src="img/logo.png" alt="Logo Leva e Traz" />
+        <nav>
+          <a href="Login.html" class="botao-claro">Entrar</a>
+          <a href="Cadastro.html" class="botao-claro">Cadastrar</a>
+        </nav>
+      </header>
+
+      <main class="container">
+        <section class="hero">
+          <div class="texto">
+            <p class="destaque">Melhor plataforma do Paraná</p>
+            <h1>Viajar nunca foi tão <br /><span>simples e econômico</span></h1>
+            <p>
+              Conectamos passageiros a motoristas de confiança para caronas
+              seguras e com o melhor preço. Transporte inteligente do jeito que
+              você precisa.
+            </p>
+            <div class="acoes">
+              <a href="Cadastro.html" class="botao">Encontrar Carona</a>
+              <a href="Login.html" class="botao-secundario">Entrar na Conta</a>
+            </div>
+          </div>
+
+          <div class="card card-busca">
+            <h2>Buscar carona</h2>
+            <form action="Login.html">
+              <label for="origem">Origem</label>
+              <input type="text" id="origem" placeholder="Digite a origem" />
+
+              <label for="destino">Destino</label>
+              <input type="text" id="destino" placeholder="Digite o destino" />
+
+              <label for="data">Data</label>
+              <input type="date" id="data" />
+
+              <button type="submit">Buscar agora</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Como funciona</h2>
+          <div class="lista-cards">
+            <div class="mini-card">
+              <h3>1. Crie sua conta</h3>
+              <p>Faça seu cadastro para começar a usar a plataforma.</p>
+            </div>
+            <div class="mini-card">
+              <h3>2. Busque sua rota</h3>
+              <p>Escolha origem, destino e data da sua viagem.</p>
+            </div>
+            <div class="mini-card">
+              <h3>3. Reserve a carona</h3>
+              <p>Entre na sua conta e finalize sua reserva.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>Rotas populares</h2>
+          <ul class="lista">
+            <li>Refúgio para Maringá</li>
+            <li>FAP para Maringá</li>
+            <li>Maringá para Refúgio</li>
+            <li>Maringá para FAP</li>
+          </ul>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
