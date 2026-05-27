@@ -23,7 +23,7 @@ Conectamos passageiros a motoristas parceiros em todo o Brasil com o melhor pre√
 <br>
 
 <p align="center">
-  <img alt="Preview da Landing Page Leva e Traz" src="https://raw.githubusercontent.com/Brenogruber/Leva_Traz-/refs/heads/main/img/landingpage.png" width="100%">
+  <img alt="Preview da Landing Page Leva e Traz" src="" width="100%">
 </p>
 
 ---
