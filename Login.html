@@ -10,10 +10,10 @@
   <body>
     <div class="login-container">
       <div class="login">
-        <img src="../img/logo.png" alt="logo" />
+        <img src="img/logo.png" alt="Logo Leva e Traz" />
         <h1>Bem-vindo de volta</h1>
         <p>Entre na sua conta para continuar</p>
-        <form>
+        <form action="dashboard.html">
           <div class="form-group">
             <label for="email">Email</label>
             <input
@@ -37,17 +37,18 @@
           <a href="recuperar-senha.html" class="link-recuperar"
             >Esqueci minha senha</a
           >
-          <button type="submit" id="botao-login"><a href="/dashboard.html">Entrar na conta</a></button>
+          <button type="submit" id="botao-login">Entrar na conta</button>
         </form>
         <div class="divisor">
           <span>ou</span>
         </div>
 
-        <button>
-          <img src="../img/googleimg.png" alt="" /><a href="/dashboard.html">Continuar com Google</a>
-        </button>
+        <a href="dashboard.html" class="google-button">
+          <img src="img/googleimg.png" alt="Google" />
+          <span>Continuar com Google</span>
+        </a>
 
-        <p>Não tem conta?<a href="/cadastro.html">Criar conta grátis</a></p>
+        <p>Não tem conta? <a href="cadastro.html">Criar conta grátis</a></p>
       </div>
     </div>
   </body>
