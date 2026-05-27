@@ -37,12 +37,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   &nbsp;
   <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/css.png" alt="CSS3" width="50" title="CSS3"/>
   &nbsp;
-  <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/figma.png" alt="Figma" width="50" title="Figma"/>
-</p>
 
 - HTML5 e CSS3
 - Git e GitHub
-- Figma
 
 ---
 
@@ -53,20 +50,9 @@ O **Leva e Traz** é uma plataforma web de caronas inteligentes e acessíveis qu
 > _"Viajar nunca foi tão simples e econômico."_
 
 **Funcionalidades:**
-- 🔍 Busca de caronas por origem, destino e data
-- 👤 Cadastro e login de passageiros e motoristas
-- 🗺️ Rotas populares com destinos mais buscados
-- 💳 Reserva com pagamento 100% seguro
-- ⭐ Sistema de avaliações da comunidade
-- 📊 Dashboard personalizado para cada usuário
-
----
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/design/VTpW2KUZvbd3ObRSG2Krvy/LevaeeTraz-%E2%80%A2-Projeto-UI-Design?node-id=0-1&p=f&t=bkq5qPfjbvkEcb71-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
----
+- 🔍 Busca de caronas
+- 👤 Cadastro e login
+- 📊 Dashboard
 
 ## 📁 Estrutura do Projeto
 
@@ -75,14 +61,16 @@ leva-e-traz/
 │
 ├── .github/
 │   └── preview.png           # Preview da aplicação
-├── assets/
-│   └── css/                  # Estilos globais
-├── cadastro/                 # Página de cadastro
-├── dashboard/                # Painel do usuário
-├── landing/                  # Landing page principal
-├── login/                    # Página de login
-├── img/                      # Imagens e assets
-├── index.html                # Entrada da aplicação
+├── img/
+│   └── favicon.png/          # Imagens
+├── Login.html                # Página de login
+├── Login.css                 # css do login
+├── cadastro.html             # Página de cadastro
+├── cadastro.css              # css do cadastro
+├── dashboard.html            # Painel do usuário
+├── dashboard.css             # css do usuário
+├── index.html                # Entrada da aplicação e landing page principal
+├── index.css                 # css da landing page principal
 └── README.md
 ```
 
@@ -111,12 +99,6 @@ Feito com ♥ por:
 
 ---
 
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 <p align="center">
-  Feito com ♥ pela equipe Leva e Traz &nbsp;🚗&nbsp; <a href="https://github.com/">Acesse nosso GitHub!</a>
+  Feito com ♥ pela equipe Leva e Traz &nbsp;🚗&nbsp; <a href="https://github.com/">Acesse nosso GitHub do projeto!</a>
 </p>
