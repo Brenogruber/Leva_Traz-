@@ -8,16 +8,7 @@ Conectamos passageiros a motoristas parceiros em todo o Brasil com o melhor pre�
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-equipe">Equipe</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=F97316&labelColor=1E293B">
-  <img alt="HTML" src="https://img.shields.io/static/v1?label=tech&message=HTML5&color=E34F26&labelColor=1E293B">
-  <img alt="CSS" src="https://img.shields.io/static/v1?label=tech&message=CSS3&color=1572B6&labelColor=1E293B">
-  <img alt="Status" src="https://img.shields.io/static/v1?label=status&message=em%20desenvolvimento&color=F97316&labelColor=1E293B">
 </p>
 
 <br>
