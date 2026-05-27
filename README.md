@@ -69,7 +69,7 @@ leva-e-traz/
 
 ## 👥 Equipe
 
-Feito com ♥ por:
+Feito por:
 
 <table>
   <tr>
@@ -80,9 +80,9 @@ Feito com ♥ por:
     <td align="center"><b>Julia Wassão</b></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/dutrathiago">@thiagodutra</a></td>
+    <td align="center"><a href="https://github.com/dutrathiago">@dutrathiago</a></td>
     <td align="center"><a href="https://github.com/brenogruber">@brenogruber</a></td>
-    <td align="center"><a href="https://github.com/igaummmm">@igorsantana</a></td>
+    <td align="center"><a href="https://github.com/igaumsant">@igaumsant</a></td>
     <td align="center"><a href="https://github.com/francieliosousa">@francieliosousa</a></td>
     <td align="center"><a href="https://github.com/juliawassao">@juliawassao</a></td>
   </tr>
@@ -91,5 +91,5 @@ Feito com ♥ por:
 ---
 
 <p align="center">
-  Feito com ♥ pela equipe Leva e Traz &nbsp;🚗&nbsp; <a href="https://github.com/">Acesse nosso GitHub do projeto!</a>
+  Feito pela equipe Leva e Traz &nbsp;🚗&nbsp; <a href="https://github.com/">Acesse nosso GitHub do projeto!</a>
 </p>
