@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro.css">
-    <title>Document</title>
+    <title>Leva e Traz</title>
 </head>
 <body>
 
@@ -13,7 +13,7 @@
         <div class="cadastro">
 
             <img src="../img/logo.png" alt="logo">
-            <h1>Bem-vindo de volta</h1>
+            <h1>Faça seu Cadastro</h1>
             <form>
                 
                 <div class="linha">
@@ -28,43 +28,55 @@
                     <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Silva" required>
                     </div>
                 </div>
+
                 <div class="form-group">
                     <label for="email">E-mail</label>
                     <input type="e-mail" id="e-mail" name="Sobrenome" placeholder="seu@email.com" required>
                 </div>
+
                 <div class="form-group">
                     <label for="CPF">CPF</label>
                     <input type="CPF" id="CPF" name="CPF" placeholder="000.000.000-00" required>
                 </div>
+
                 <div class="form-group">
                     <label for="telefone">Telefone</label>
                     <input type="CPF" id="CPF" name="CPF" placeholder="000.000.000-00" required>
                 </div>
+
+               <div class="linha2">
+
                <div class="form-group">
-                    <span class="lbl">Nascimento</span><input type="date"/>
+                    <label class="lbl">Nascimento</label> <input type="date"/>
                 </div>
                 <div class="form-group">
                     <label for="cidade">Cidade</label>
                     <input type="Cidade" id="Cidade" name="Cidade" placeholder="Maringá, PR" required>
                 </div>
+
+                </div>
+
                 <div class="form-group">
                     <label for="senha">Senha</label>
                     <input type="password" id="senha" name="senha" placeholder="Minímo 8 caracteres" required>
                 </div>
+
                 <div class="form-group">
                     <label for="Confirmar">Confimar Senha</label>
                     <input type="password" id="senha" name="senha" placeholder="Repita a senha" required>
                 </div>
+
                 <div class="checkbox">
                     <label>
                     <input type="checkbox" name="termos" value="aceito">
                         Concordo com os Termos de Uso e Política de Privacidade
                     </label>
                 </div>
+
                 <button type="submit" id="botao-conta">Criar minhas conta grátis</button> 
             </form>
 
-            <form action="../dashboard/index.html">
+            <form action="">
 
                 <div class="divisor">
                     <span>ou</span>
@@ -72,7 +84,10 @@
                 <div class="botao-google">
                     <button><img src="../img/googleimg.png" alt=""> Continuar com Google</button>
                 </div>
-                <a href="../login/Login.html">Já tem conta? Fazer login</a>
+                
+                <div class="conta">
+                    <a href="Login.html">Já tem conta? Fazer login</a>
+                </div>
             </form>
 
         </div>

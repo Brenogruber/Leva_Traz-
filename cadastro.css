@@ -32,13 +32,15 @@ body {
 .cadastro img {
   width: 200spx;
   max-width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: -4px;
 }
 
 /* Título */
 .cadastro h1 {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   color: #ffffff;
+  font-size: 28px;
+  
 }
 
 /* Texto */
@@ -100,6 +102,16 @@ input:focus {
 }
 
 .linha .form-group{
+    width: 100%;
+}
+
+.linha2{
+
+  display: flex;
+    gap: 15px;
+}
+
+.linha2 .form-group{
     width: 100%;
 }
 
@@ -207,35 +219,28 @@ button:hover {
 
 /* botão google */
 .cadastro button img {
-  width: 30px;
+  width: 20px;
   margin-right: 10px;
 }
 
 .botao-google {
   width: 100%;
+  display: flex;
+
 }
 
 .conta {
-  margin-top: 18px;
+  margin-top: 14px;
   text-align: center;
   width: 100%;
 }
 
-.conta p {
-  color: #ffffff;
-  font-size: 13px;
-  margin: 0;
-}
-
 .conta a {
-  color: #fd7a00;
+  color: #ffffff;
   text-decoration: none;
-  margin-left: 4px;
+  margin-left: 3px;
+  font-size: 14px;
 }
 
-a {
-  color: #ffffff;
-  font-size: 13px;
-  transition: 0.3s;
-  margin-top: 10px;
-}
+
+
