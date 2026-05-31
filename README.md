@@ -41,6 +41,7 @@ O **Leva e Traz** é uma plataforma web de caronas inteligentes e acessíveis qu
 > _"Viajar nunca foi tão simples e econômico."_
 
 **Funcionalidades:**
+
 - 🔍 Busca de caronas
 - 👤 Cadastro e login
 - 📊 Dashboard

@@ -2,7 +2,13 @@ body {
   font-family: Arial, sans-serif;
   min-height: 100vh;
   margin: 0;
-  background: radial-gradient(circle at 50% 0%, rgba(255, 138, 42, 0.12), transparent 28%), linear-gradient(180deg, rgba(255, 255, 255, 0.015), transparent), #171c24;
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(255, 138, 42, 0.12),
+      transparent 28%
+    ),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.015), transparent), #171c24;
 }
 
 .login-container {
@@ -15,7 +21,9 @@ body {
 
 /* Caixa do cadastro */
 .cadastro {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent), rgba(28, 34, 43, 0.94);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent),
+    rgba(28, 34, 43, 0.94);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 22px;
   padding: 25px;
@@ -40,7 +48,6 @@ body {
   margin-bottom: 15px;
   color: #ffffff;
   font-size: 28px;
-  
 }
 
 /* Texto */
@@ -96,28 +103,27 @@ input:focus {
   box-shadow: 0 0 8px rgba(255, 123, 0, 0.3);
 }
 
-.linha{
-    display: flex;
-    gap: 15px;
-}
-
-.linha .form-group{
-    width: 100%;
-}
-
-.linha2{
-
+.linha {
   display: flex;
-    gap: 15px;
+  gap: 15px;
 }
 
-.linha2 .form-group{
-    width: 100%;
+.linha .form-group {
+  width: 100%;
 }
 
-.form-group{
-    display: flex;
-    flex-direction: column;
+.linha2 {
+  display: flex;
+  gap: 15px;
+}
+
+.linha2 .form-group {
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
 
 .checkbox {
@@ -154,7 +160,10 @@ input:focus {
   cursor: pointer;
   width: 100%;
   transform: translateY(-1px);
-  
+}
+
+#botao-conta a {
+  color: white;
 }
 
 #botao-conta:hover {
@@ -164,9 +173,8 @@ input:focus {
   scale: 1.02;
 }
 
-
 button {
- padding: 12px;
+  padding: 12px;
   border: 1px solid #464646;
   border-radius: 10px;
   background-color: #242424;
@@ -177,11 +185,9 @@ button {
   transform: translateY(-1px);
 }
 
-
 /* Hover botão */
 button:hover {
   background-color: #1a1c1f;
-  
 }
 
 /* divisor */
@@ -226,7 +232,10 @@ button:hover {
 .botao-google {
   width: 100%;
   display: flex;
+}
 
+.botao-google a {
+  color: white;
 }
 
 .conta {
@@ -235,12 +244,16 @@ button:hover {
   width: 100%;
 }
 
-.conta a {
+.conta p {
   color: #ffffff;
   text-decoration: none;
   margin-left: 3px;
   font-size: 14px;
 }
 
-
-
+.conta a {
+  color: #fd7a00;
+  text-decoration: none;
+  margin-left: 3px;
+  font-size: 14px;
+}
