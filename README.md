@@ -89,6 +89,14 @@ Feito por:
   </tr>
 </table>
 
+## Contribuições dos alunos
+
+- Breno Gruber: desenvolvimento da página de login e apoio na landing page.
+- Julia Wassao: desenvolvimento da página de cadastro.
+- Thiago Dutra: desenvolvimento do dashboard.
+- Igor Santana: apoio no desenvolvimento do dashboard.
+- Francielio Sousa: apoio no desenvolvimento da landing page.
+
 ---
 
 <p align="center">

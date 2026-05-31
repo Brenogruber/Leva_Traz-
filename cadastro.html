@@ -10,9 +10,9 @@
   <body>
     <div class="login-container">
       <div class="cadastro">
-        <img src="../img/logo.png" alt="logo" />
+        <img src="img/logo.png" alt="logo" />
         <h1>Faça seu Cadastro</h1>
-        <form>
+        <form action="dashboard.html">
           <div class="linha">
             <div class="form-group">
               <label for="Nome">Nome</label>
@@ -40,9 +40,9 @@
           <div class="form-group">
             <label for="email">E-mail</label>
             <input
-              type="e-mail"
-              id="e-mail"
-              name="Sobrenome"
+              type="email"
+              id="email"
+              name="email"
               placeholder="seu@email.com"
               required
             />
@@ -62,10 +62,10 @@
           <div class="form-group">
             <label for="telefone">Telefone</label>
             <input
-              type="CPF"
-              id="CPF"
-              name="CPF"
-              placeholder="000.000.000-00"
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="(44) 99999-0000"
               required
             />
           </div>
@@ -101,8 +101,8 @@
             <label for="Confirmar">Confimar Senha</label>
             <input
               type="password"
-              id="senha"
-              name="senha"
+              id="Confirmar"
+              name="Confirmar"
               placeholder="Repita a senha"
               required
             />
@@ -115,19 +115,17 @@
             </label>
           </div>
 
-          <button type="submit" id="botao-conta">
-            <a href="dashboard.html">Criar minhas conta grátis</a>
-          </button>
+          <button type="submit" id="botao-conta">Criar minhas conta grátis</button>
         </form>
 
-        <form action="">
+        <form action="dashboard.html">
           <div class="divisor">
             <span>ou</span>
           </div>
           <div class="botao-google">
-            ><button>
-              <img src="../img/googleimg.png" alt="Google" />
-              <a href="dashboard.html">Continuar com Google</a>
+            <button type="submit">
+              <img src="img/googleimg.png" alt="Google" />
+              Continuar com Google
             </button>
           </div>
 
