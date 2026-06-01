@@ -84,7 +84,7 @@ Feito por:
     <td align="center"><a href="https://github.com/dutrathiago">@dutrathiago</a></td>
     <td align="center"><a href="https://github.com/brenogruber">@brenogruber</a></td>
     <td align="center"><a href="https://github.com/igaumsant">@igaumsant</a></td>
-    <td align="center"><a href="https://github.com/francieliosousa">@francieliosousa</a></td>
+    <td align="center"><a href="https://github.com/sousafrancielio">@sousafrancielio</a></td>
     <td align="center"><a href="https://github.com/juliawassao">@juliawassao</a></td>
   </tr>
 </table>
